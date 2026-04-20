@@ -1,0 +1,455 @@
+[
+  {
+    "session_id": "session_1",
+    "agent_id": "agent-with-memory",
+    "team_id": null,
+    "user_id": null,
+    "workflow_id": null,
+    "session_data": {
+      "session_state": {},
+      "session_metrics": {
+        "input_tokens": 1357,
+        "output_tokens": 1478,
+        "total_tokens": 2835,
+        "reasoning_tokens": 832,
+        "details": {
+          "model": [
+            {
+              "input_tokens": 1357,
+              "output_tokens": 1478,
+              "total_tokens": 2835,
+              "reasoning_tokens": 832,
+              "id": "gpt-5-mini",
+              "provider": "OpenAI Chat"
+            }
+          ]
+        }
+      }
+    },
+    "metadata": null,
+    "agent_data": {
+      "name": "agent_with_memory",
+      "agent_id": "agent-with-memory",
+      "model": {
+        "provider": "OpenAI",
+        "id": "gpt-5-mini",
+        "name": "OpenAIChat"
+      }
+    },
+    "runs": [
+      {
+        "run_id": "78a5a0ad-bae5-45a7-9d8e-0d237f231f46",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Hello Manav Shah \u2014 nice to meet you!\n\nHow can I help today? Here are a few things I can do:\n- Answer questions or explain concepts\n- Help with writing, editing, or resumes\n- Assist with coding, debugging, or algorithms\n- Do math or data analysis\n- Brainstorm ideas or plan projects\n- Provide study help or create summaries\n\nWould you like me to call you \"Manav,\" or do you prefer a different name or pronouns?",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DWfu8ybMaqSoWgheQOX4MGc1i8RL6",
+          "model_extra": {
+            "obfuscation": "8gtm38"
+          }
+        },
+        "model": "gpt-5-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1776679947,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 33,
+          "output_tokens": 234,
+          "total_tokens": 267,
+          "reasoning_tokens": 128,
+          "time_to_first_token": 3.251997166000365,
+          "duration": 4.364753333000408,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 33,
+                "output_tokens": 234,
+                "total_tokens": 267,
+                "reasoning_tokens": 128,
+                "id": "gpt-5-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "afe21444-d8f4-4220-bf61-5ed71d283175",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1776679947
+          },
+          {
+            "id": "d7aaf6fd-4a2f-44ba-9ce1-d258bb17234b",
+            "content": "Hello My name is Manav Shah",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1776679947
+          },
+          {
+            "id": "0d33c7ea-859d-4a59-9295-25449639cd23",
+            "content": "Hello Manav Shah \u2014 nice to meet you!\n\nHow can I help today? Here are a few things I can do:\n- Answer questions or explain concepts\n- Help with writing, editing, or resumes\n- Assist with coding, debugging, or algorithms\n- Do math or data analysis\n- Brainstorm ideas or plan projects\n- Provide study help or create summaries\n\nWould you like me to call you \"Manav,\" or do you prefer a different name or pronouns?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DWfu8ybMaqSoWgheQOX4MGc1i8RL6",
+              "model_extra": {
+                "obfuscation": "8gtm38"
+              }
+            },
+            "metrics": {
+              "input_tokens": 33,
+              "output_tokens": 234,
+              "total_tokens": 267,
+              "reasoning_tokens": 128,
+              "time_to_first_token": 3.2513277919997563
+            },
+            "created_at": 1776679947
+          }
+        ],
+        "input": {
+          "input_content": "Hello My name is Manav Shah"
+        }
+      },
+      {
+        "run_id": "dbdbe7f2-6cf6-4864-bb99-ddf7d0ae1d21",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Yes \u2014 your name is **Manav Shah**.\n\nWould you like me to call you Manav or something else?",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DWfuCmx8rp6qbzJk3XbqwY25dYy46",
+          "model_extra": {
+            "obfuscation": "YHcCSN"
+          }
+        },
+        "model": "gpt-5-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1776679952,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 147,
+          "output_tokens": 161,
+          "total_tokens": 308,
+          "reasoning_tokens": 128,
+          "time_to_first_token": 2.5547107499996855,
+          "duration": 2.97276383299959,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 147,
+                "output_tokens": 161,
+                "total_tokens": 308,
+                "reasoning_tokens": 128,
+                "id": "gpt-5-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "f67a0030-b217-44ab-850a-05ebb1ce6a84",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1776679952
+          },
+          {
+            "id": "3058e9e7-a3d8-4946-8c83-c552977337dd",
+            "content": "Can you tell me my name ?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1776679952
+          },
+          {
+            "id": "125835b0-1db3-48da-8101-c41c3554c0ea",
+            "content": "Yes \u2014 your name is **Manav Shah**.\n\nWould you like me to call you Manav or something else?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DWfuCmx8rp6qbzJk3XbqwY25dYy46",
+              "model_extra": {
+                "obfuscation": "YHcCSN"
+              }
+            },
+            "metrics": {
+              "input_tokens": 147,
+              "output_tokens": 161,
+              "total_tokens": 308,
+              "reasoning_tokens": 128,
+              "time_to_first_token": 2.5536854170004517
+            },
+            "created_at": 1776679952
+          }
+        ],
+        "input": {
+          "input_content": "Can you tell me my name ?"
+        }
+      },
+      {
+        "run_id": "b72311df-cd66-46ed-a7f8-b35e47692464",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Here are a few \u2014 pick your favorite:\n\n1. Classic: Why don\u2019t scientists trust atoms? Because they make up everything.\n2. Pun: I\u2019m reading a book on anti-gravity \u2014 it\u2019s impossible to put down.\n3. Tech (for you, Manav): Why did the programmer quit his job? He didn\u2019t get \u201ca raise\u201d \u2014 he only got arrays.\n\nWant another one?",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DWfuH0dHULD89Px9XbVQDOk2xgJej",
+          "model_extra": {
+            "obfuscation": "1WtW4I"
+          }
+        },
+        "model": "gpt-5-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1776679956,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 189,
+          "output_tokens": 348,
+          "total_tokens": 537,
+          "reasoning_tokens": 256,
+          "time_to_first_token": 4.706294000000526,
+          "duration": 5.898375208000289,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 189,
+                "output_tokens": 348,
+                "total_tokens": 537,
+                "reasoning_tokens": 256,
+                "id": "gpt-5-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "27e7349c-3fab-4bc6-b121-d50c4ab26c82",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1776679956
+          },
+          {
+            "id": "122ae149-d97b-4f5e-80e4-0b4c7c20521b",
+            "content": "tell me a joke that is funny ?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1776679956
+          },
+          {
+            "id": "73c12f72-058f-487c-ae70-b91842536fba",
+            "content": "Here are a few \u2014 pick your favorite:\n\n1. Classic: Why don\u2019t scientists trust atoms? Because they make up everything.\n2. Pun: I\u2019m reading a book on anti-gravity \u2014 it\u2019s impossible to put down.\n3. Tech (for you, Manav): Why did the programmer quit his job? He didn\u2019t get \u201ca raise\u201d \u2014 he only got arrays.\n\nWant another one?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DWfuH0dHULD89Px9XbVQDOk2xgJej",
+              "model_extra": {
+                "obfuscation": "1WtW4I"
+              }
+            },
+            "metrics": {
+              "input_tokens": 189,
+              "output_tokens": 348,
+              "total_tokens": 537,
+              "reasoning_tokens": 256,
+              "time_to_first_token": 4.705249082999217
+            },
+            "created_at": 1776679956
+          }
+        ],
+        "input": {
+          "input_content": "tell me a joke that is funny ?"
+        }
+      },
+      {
+        "run_id": "28e2ddff-e8de-4f7c-8b6a-c22185b726bf",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "I don\u2019t have access to your system or chat infrastructure, so I can\u2019t see or provide any session ID for you.\n\nIf you meant a session ID in a specific environment, here are ways to find it depending on context \u2014 tell me which one you mean and I can give more precise steps.\n\n- Browser (web app)\n  - Chrome DevTools: Application > Storage > Cookies \u2014 look for session cookie (common names: session, sessionid, JSESSIONID, PHPSESSID).\n  - Console: view all cookies\n    ```\n    document.cookie\n    ```\n    or get a cookie by name:\n    ```js\n    function getCookie(name){\n      return document.cookie.split('; ').find(row => row.startsWith(name + '='))?.split('=')[1]\n    }\n    ```\n- HTTP request/response\n  - Inspect Network tab in DevTools and look at request headers (Authorization, Cookie) or response Set-Cookie header.\n  - Example curl showing headers:\n    ```\n    curl -I https://example.com\n    ```\n- Server-side frameworks\n  - Express (Node.js): session ID is often available as `req.sessionID` (if using express-session).\n  - PHP: `session_id()` returns the current session id.\n  - Django: `request.session.session_key`\n  - Rails: session data is typically in cookies \u2014 check `cookies.encrypted[:_yourapp_session]` or server logs.\n- CLI / environment variables\n  - Some systems store tokens in env vars: `echo $SESSION_ID` (or the specific env var name).\n- If you\u2019re debugging an API client\n  - Log the `Authorization` or custom header your client sends, or dump the token before sending.\n\nIf you tell me the platform (browser, Node/Express, Django, PHP, mobile app, specific website), I\u2019ll give exact commands or code to retrieve the session id.",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DWfuOPe8UEM3GyTRoYUI6rGvE6PW8",
+          "model_extra": {
+            "obfuscation": "iS31We"
+          }
+        },
+        "model": "gpt-5-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1776679963,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 292,
+          "output_tokens": 653,
+          "total_tokens": 945,
+          "reasoning_tokens": 256,
+          "time_to_first_token": 4.29820433399982,
+          "duration": 8.178646374999516,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 292,
+                "output_tokens": 653,
+                "total_tokens": 945,
+                "reasoning_tokens": 256,
+                "id": "gpt-5-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "0948ab21-cf88-4e68-843a-12e66884369a",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1776679963
+          },
+          {
+            "id": "8e0579b5-6a5c-4d6f-aca8-3122041d56fe",
+            "content": "Can you tell me what is the session id ?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1776679963
+          },
+          {
+            "id": "f339590f-5bef-4d63-bd99-64a8faa84e9d",
+            "content": "I don\u2019t have access to your system or chat infrastructure, so I can\u2019t see or provide any session ID for you.\n\nIf you meant a session ID in a specific environment, here are ways to find it depending on context \u2014 tell me which one you mean and I can give more precise steps.\n\n- Browser (web app)\n  - Chrome DevTools: Application > Storage > Cookies \u2014 look for session cookie (common names: session, sessionid, JSESSIONID, PHPSESSID).\n  - Console: view all cookies\n    ```\n    document.cookie\n    ```\n    or get a cookie by name:\n    ```js\n    function getCookie(name){\n      return document.cookie.split('; ').find(row => row.startsWith(name + '='))?.split('=')[1]\n    }\n    ```\n- HTTP request/response\n  - Inspect Network tab in DevTools and look at request headers (Authorization, Cookie) or response Set-Cookie header.\n  - Example curl showing headers:\n    ```\n    curl -I https://example.com\n    ```\n- Server-side frameworks\n  - Express (Node.js): session ID is often available as `req.sessionID` (if using express-session).\n  - PHP: `session_id()` returns the current session id.\n  - Django: `request.session.session_key`\n  - Rails: session data is typically in cookies \u2014 check `cookies.encrypted[:_yourapp_session]` or server logs.\n- CLI / environment variables\n  - Some systems store tokens in env vars: `echo $SESSION_ID` (or the specific env var name).\n- If you\u2019re debugging an API client\n  - Log the `Authorization` or custom header your client sends, or dump the token before sending.\n\nIf you tell me the platform (browser, Node/Express, Django, PHP, mobile app, specific website), I\u2019ll give exact commands or code to retrieve the session id.",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DWfuOPe8UEM3GyTRoYUI6rGvE6PW8",
+              "model_extra": {
+                "obfuscation": "iS31We"
+              }
+            },
+            "metrics": {
+              "input_tokens": 292,
+              "output_tokens": 653,
+              "total_tokens": 945,
+              "reasoning_tokens": 256,
+              "time_to_first_token": 4.29713187499965
+            },
+            "created_at": 1776679963
+          }
+        ],
+        "input": {
+          "input_content": "Can you tell me what is the session id ?"
+        }
+      },
+      {
+        "run_id": "2dcc9f6a-f41d-4c70-b861-c6ec74e7685a",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Your name is **Manav Shah**.",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DWfuXryxaGm250utKDzp2VAKaL9oe",
+          "model_extra": {
+            "obfuscation": "doCOCh"
+          }
+        },
+        "model": "gpt-5-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1776679973,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 696,
+          "output_tokens": 82,
+          "total_tokens": 778,
+          "reasoning_tokens": 64,
+          "time_to_first_token": 1.9475030419998802,
+          "duration": 1.9539110420000725,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 696,
+                "output_tokens": 82,
+                "total_tokens": 778,
+                "reasoning_tokens": 64,
+                "id": "gpt-5-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "messages": [
+          {
+            "id": "04797af1-1bb1-438e-92db-0620ea221270",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1776679973
+          },
+          {
+            "id": "4cc18bf1-a041-4b58-8fbc-8ee3633cf874",
+            "content": "Can you tell my name ?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1776679973
+          },
+          {
+            "id": "e06ea1ef-e459-45ea-a6e2-3477588b635d",
+            "content": "Your name is **Manav Shah**.",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DWfuXryxaGm250utKDzp2VAKaL9oe",
+              "model_extra": {
+                "obfuscation": "doCOCh"
+              }
+            },
+            "metrics": {
+              "input_tokens": 696,
+              "output_tokens": 82,
+              "total_tokens": 778,
+              "reasoning_tokens": 64,
+              "time_to_first_token": 1.9463986250002563
+            },
+            "created_at": 1776679973
+          }
+        ],
+        "input": {
+          "input_content": "Can you tell my name ?"
+        }
+      }
+    ],
+    "summary": null,
+    "created_at": 1776679947,
+    "updated_at": 1776679975,
+    "session_type": "agent"
+  }
+]
