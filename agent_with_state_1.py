@@ -33,7 +33,9 @@ agent = Agent(
 )
 
 
-agent.print_response(input="Can you tell me my name and age ? ",
-                     session_state={"name":"Shreya","age":27})
+#agent.print_response(input="Can you tell me my name and age ? ",
+ #                    session_state={"name":"Shreya","age":27})
 
+
+print(agent.get_session_state(session_id))
 
