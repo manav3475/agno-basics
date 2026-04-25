@@ -107,7 +107,7 @@ agent.print_response("Add Eggs and bread to the shopping list")
 
 print(f"The session state is: {agent.get_session_state(session_id)}")
 
-agent.print_response("I have bought milk and egg")
+agent.print_response("I have bought milk and eggs")
 
 print(f"The session state is: {agent.get_session_state(session_id)}")
 
