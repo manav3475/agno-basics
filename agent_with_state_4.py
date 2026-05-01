@@ -83,6 +83,7 @@ agent = Agent(
     instructions="You job is to manage shopping lists. you start off with an empty list and " \
     "you can add item to the list, remove item from the list,list items in the list or clear the list of all items",
     tools=[add_item,removed_item,list_items,clear_list],
+    add_session_state_to_context=True,
     db=db,
     stream=True,
     markdown=True
@@ -108,3 +109,13 @@ agent.print_response("What is on my list",session_id=fruits_sessions)
 
 agent.print_response("What is on my list",session_id=dairy_sessions)
 
+agent.print_response("I have already bought apple, please add banana and orange to the list",
+                     session_id=fruits_sessions)
+
+agent.print_response("Clear the list and add pineapple to it",
+                     session_id=fruits_sessions)
+print("Fruit list", agent.get_session_state(fruits_sessions))
+
+agent.print_response("Add curd and butter to the list and remove milk from the list"
+                     ,session_id=dairy_sessions)
+print("Dairy list",agent.get_session_state(dairy_sessions))
