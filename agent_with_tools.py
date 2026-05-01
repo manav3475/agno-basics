@@ -22,4 +22,4 @@ agent = Agent(
 )
 
 
-agent.print_response("tell me about brazzers",markdown=True)
+agent.print_response("Tell me about USA ?",markdown=True)
